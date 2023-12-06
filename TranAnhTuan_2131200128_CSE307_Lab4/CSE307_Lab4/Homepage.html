@@ -1,0 +1,210 @@
+        <html>
+    <head>
+        <meta charset="utf-8">
+        <title>ABC Book Store</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            
+                <img src="img_Practice3\logoABCbook.png">
+            
+            <div>
+            
+                <i class="fa fa-user" aria-hidden="true"></i><a href="Lab2_6/login.html">Login</a>
+                <i class="fa fa-registered" aria-hidden="true"></i><a href="Lab3_1.html">Register</a>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="https://www.google.com/search?q=cart&sca_esv=578400713&tbm=isch&source=lnms&sa=X&ved=2ahUKEwigrYKGnKKCAxWislYBHQ5MAcUQ_AUoAXoECAEQAw&biw=1920&bih=963&dpr=1">Cart</a>
+                
+            </div>
+        </header>
+        <nav>            
+                <div>
+                    <ul type="circle">
+                        <li>
+                            <a href="Homepage.html">Home page</a>
+                        </li>
+                        <li>
+                            <a href="Lab1_4.html">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <input type="text" name="" id="" placeholder="Enter the title of the book">
+                    <input type="submit" name="findbooks" id="Find books" value="Find books">
+                </div>
+        </nav>
+        <div id="body">
+            <article>
+                <div id="left">
+                    <div>
+                        <h2>Book by subjects</h2>
+                        <ul>
+                            <li><a href="#">Foreign language</a></li> <br>
+                            <li><a href="#">Information Technology</a></li> <br>
+                            <li><a href="#">Law</a></li><br>
+                            <li><a href="#">Literature</a></li> <br>
+                            <li><a href="#">Science and Technology</a></li> <br>
+                            <li><a href="#">Agriculture</a></li> <br>
+                            <li><a href="#">History of Geography</a></li> <br>
+                            <li><a href="#">Economics</a></li> <br>
+                            <li><a href="#">Listen to the song</a></li>
+                        </ul>
+                    </div>
+                    <br>
+
+                    <div>
+                        <h2>Book by publisher</h2>
+                        <ul>
+                            <li><a href="#">Young publishers</a></li> <br>
+                            <li><a href="#">Statistics Publishing House</a></li> <br>
+                            <li><a href="#">Kim Dong</a></li> <br>
+                            <li><a href="#">National Universities</a></li> <br>
+                            <li><a href="#">Artistic craft culture</a></li> <br>
+                            <li><a href="#">culture</a></li> <br>
+                            <li><a href="#">Labor - Society</a></li> <br>
+                            <li><a href="#">Science - Engineering</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="right">
+                        <div id="marquee">
+                            <h2>
+                                <b>BESTSELLERS</b>
+                            </h2>
+                            <marquee  direction="up" scrollamount="30" scrolldelay="100" onmousemove="stop()" onmouseout="start()">
+                                <p>
+                                    <a href="#"><img src="img_Practice3\EnglishForTech.jpg"><b>English For Tech</b></a>
+                                </p>
+                                <p>
+                                    <a href="#"><img src="img_Practice3\VisualBasic.png"><b>Visual Basic</b></a>
+                                </p>
+                                <p>
+                                    <a href="#"><img src="img_Practice3\Davinci.png"><b>Da Vinci Code</b></a>
+                                </p>
+                                <p>
+                                    <a href="#"><img src="img_Practice3\BARC.png"><b>BARC</b></a>
+                                </p>
+                            </marquee>
+                        </div>
+                        <div>
+                            <h3>
+                                THE WEBSITE LINKS
+                            </h3>
+                            <br>
+                            <select name="linkingpages" id="">
+                                <option value="" disabled selected>--Select the link pages--</option>
+                                <option value=""><a href="https://lib.eiu.edu.vn/">EIU Library</a></option>
+                                <option value=""><a href="https://eiu.edu.vn/">EIU</a></option>
+                            </select>
+                            <br>
+                            <br>
+                        </div>
+                        <div>
+                            <h3>
+                                ACCESS STATISTICS
+                            </h3>
+                            <p>
+                                <b>
+                                    Total accsess: 500
+                                </b>
+                                <br>
+                                <br>
+                                <b>
+                                    Online: 3
+                                </b>
+                            </p>
+                    
+                    </div>
+                </div>
+                <div id="middle">
+                    <h2 id="head">Bookstore</h2>
+                    <div id="book">
+                        <div>
+                            <h2>
+                                <a href="#">Giáo trình tin học cơ bản</a>
+                            </h2>
+                            <br>
+                            <img src="https://lh3.googleusercontent.com/BW0_LLJUegwXYPVpewxE6WQnng117yHzGm7KjOy0lLSw=w425-h599-no" alt="giaotrinhcoban">
+                            <br>  
+                            <p>Đơn giá : <span style="color: red;">26.000đ</span></p>
+                            <a href="#"><img src="https://dhcompany.com.vn/wp-content/uploads/2021/12/hv-muangay.png" class="buttonbuy" alt="Buy-Book"></a>
+                        </div>  
+                        <div>
+                            <h2>
+                                <a href="#">Giáo trình tin học cơ bản</a>
+                            </h2>
+                            <br>
+                            <img src="https://lh3.googleusercontent.com/BW0_LLJUegwXYPVpewxE6WQnng117yHzGm7KjOy0lLSw=w425-h599-no" alt="giaotrinhcoban">
+                            <br>  
+                            <p>Đơn giá : <span style="color: red;">26.000đ</span></p>
+                            <a href="#"><img src="https://dhcompany.com.vn/wp-content/uploads/2021/12/hv-muangay.png" class="buttonbuy" alt="Buy-Book"></a>
+                        </div>  
+                        <div>
+                            <h2>
+                                <a href="#">Giáo trình tin học cơ bản</a>
+                            </h2>
+                            <br>
+                            <img src="https://lh3.googleusercontent.com/BW0_LLJUegwXYPVpewxE6WQnng117yHzGm7KjOy0lLSw=w425-h599-no" alt="giaotrinhcoban">
+                            <br>  
+                            <p>Đơn giá : <span style="color: red;">26.000đ</span></p>
+                            <a href="#"><img src="https://dhcompany.com.vn/wp-content/uploads/2021/12/hv-muangay.png" class="buttonbuy" alt="Buy-Book"></a>
+                        </div>  
+                        <div>
+                            <h2>
+                                <a href="#">Giáo trình tin học cơ bản</a>
+                            </h2>
+                            <br>
+                            <img src="https://lh3.googleusercontent.com/BW0_LLJUegwXYPVpewxE6WQnng117yHzGm7KjOy0lLSw=w425-h599-no" alt="giaotrinhcoban">
+                            <br>  
+                            <p>Đơn giá : <span style="color: red;">26.000đ</span></p>
+                            <a href="#"><img src="https://dhcompany.com.vn/wp-content/uploads/2021/12/hv-muangay.png" class="buttonbuy" alt="Buy-Book"></a>
+                        </div>  
+                        <div>
+                            <h2>
+                                <a href="#">Giáo trình tin học cơ bản</a>
+                            </h2>
+                            <br>
+                            <img src="https://lh3.googleusercontent.com/BW0_LLJUegwXYPVpewxE6WQnng117yHzGm7KjOy0lLSw=w425-h599-no" alt="giaotrinhcoban">
+                            <br>  
+                            <p>Đơn giá : <span style="color: red;">26.000đ</span></p>
+                            <a href="#"><img src="https://dhcompany.com.vn/wp-content/uploads/2021/12/hv-muangay.png" class="buttonbuy" alt="Buy-Book"></a>
+                        </div>  
+                        <div>
+                            <h2>
+                                <a href="#">Giáo trình tin học cơ bản</a>
+                            </h2>
+                            <br>
+                            <img src="https://lh3.googleusercontent.com/BW0_LLJUegwXYPVpewxE6WQnng117yHzGm7KjOy0lLSw=w425-h599-no" alt="giaotrinhcoban">
+                            <br>  
+                            <p>Đơn giá : <span style="color: red;">26.000đ</span></p>
+                            <a href="#"><img src="https://dhcompany.com.vn/wp-content/uploads/2021/12/hv-muangay.png" class="buttonbuy" alt="Buy-Book"></a>
+                        </div>  
+                    </div>
+                </div>
+            </article>
+        </div>
+        <footer>
+            <footer>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p>&copy; 2023 Your Website. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                      <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+        </footer>
+    </body>
+</html>
